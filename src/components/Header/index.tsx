@@ -18,7 +18,7 @@ export default class Header extends React.PureComponent<{}, {}> {
                                 event.preventDefault();
                                 const writer: HTMLElement | null = document.getElementById('writer');
 
-                                if(writer) {
+                                if (writer) {
                                     writer.style.display = 'block';
                                 }
                             }}

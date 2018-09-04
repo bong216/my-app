@@ -102,7 +102,7 @@ export default class IndexContainer extends React.Component <{}, MainState> {
                 this.state.newContent,
                 window.localStorage.getItem('user'),
             )
-            .then((response) => window.location.href = 'http://13.125.76.112')
+            .then((response) => window.location.href = 'localhost')
             .catch((error) => window.console.log(error));
         }
 
